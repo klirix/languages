@@ -6,3 +6,4 @@ kotlinc -include-runtime kotlin/code.kt -d kotlin/code.jar
 #kotlinc-native -include-runtime kotlin/code.kt -d kotlin/code
 dart compile exe dart/code.dart -o dart/code --target-os=macos
 elixirc elixir/bench.ex
+crystal build --release --progress --no-debug -o ./crystal/code ./crystal/code.cr
